@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menuAbout"
+        android:title="About"
+        android:icon="@drawable/ic_info"/>
+    <item
+        android:id="@+id/menuRules"
+        android:title="Rules"
+        android:icon="@drawable/work"/>
+    <item
+        android:id="@+id/menuEye"
+        android:title="Eye training"
+        android:icon="@drawable/eye"/>
+    <item
+        android:id="@+id/menuExit"
+        android:title="Exit"
+        android:icon="@drawable/ic_exit"/>
+</menu>

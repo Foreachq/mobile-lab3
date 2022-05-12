@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_menu"
+    app:startDestination="@id/bottomMenuFragment">
+
+    <fragment
+        android:id="@+id/bottomMenuFragment"
+        android:name="com.example.mobilki_3.ui.menu.BottomMenuFragment"
+        android:label="fragment_menu_bottom"
+        tools:layout="@layout/fragment_menu_bottom" />
+
+    <fragment
+        android:id="@+id/menuExit"
+        android:name="com.example.mobilki_3.ui.exit.ExitFragment"/>
+    <fragment
+        android:id="@+id/menuAbout"
+        android:name="com.example.mobilki_3.ui.menu.AboutFragment"/>
+    <activity
+        android:id="@+id/menuRules"
+        android:name="com.example.mobilki_3.RulesActivity"/>
+    <activity
+        android:id="@+id/menuEye"
+        android:name="com.example.mobilki_3.EyeTrainingActivity"/>
+
+</navigation>

@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Mobilki_3</string>
+    <!-- Strings related to onboarding -->
+    <string name="enter_account">Войти в аккаунт</string>
+    <string name="hello_onboarding">ПРИВЕТ</string>
+    <string name="register_onboarding">Зарегистрируйтесь</string>
+    <string name="not_account_question">Еще нет аккаунта?</string>
+    <!-- Strings related to login -->
+    <string name="prompt_login">Login</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="invalid_username">Not a valid email</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="register_failed">"Register failed"</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="register">Register</string>
+    <string name="profile">Профиль</string>
+    <!-- Strings related to main -->
+    <string name="welcome">"С возвращением, "</string>
+    <string name="textViewQuestionMain">Каким ты себя ощущаешь сегодня?</string>
+    !-- Strings related to profile -->
+    <string name="exit">exit</string>
+    <string name="cancel">Cancel</string>
+    <string name="phone_number">Phone number</string>
+    <string name="birthday">Birthday</string>
+    <string name="weight">weight</string>
+    <string name="height">height</string>
+    <string name="sm">см</string>
+    <string name="kg">кг</string>
+    <string name="info">Information:</string>
+    <string name="invalid_email">email error</string>
+    <string name="invalid_phone">phone number error</string>
+    <string name="invalid_birthday">error (ex. 01.01.2000)</string>
+
+    <string name="about">Made by Batura Dmitry 951005</string>
+    <string name="calculate_bmi">Calculate BMI</string>
+
+    <!-- Strings used for fragments for navigation -->
+    <string-array name="inactivity_options_array">
+        <item>5 c</item>
+        <item>10 c</item>
+        <item>20 c</item>
+    </string-array>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="app_widget_description">This is an app widget description</string>
+
+</resources>

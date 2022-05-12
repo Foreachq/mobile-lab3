@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".EyeTrainingActivity">
+
+
+    <TextView
+        android:id="@+id/elapsedTextView"
+        android:layout_width="240dp"
+        android:layout_height="94dp"
+        android:layout_gravity="center" />
+
+    <Spinner
+        android:id="@+id/inactivitySpinner"
+        android:layout_width="275dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="@color/sedative_grey"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:textColor="@color/sedative_grey"
+        android:textColorHint="@color/sedative_grey"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/beginButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="@color/sedative_green"
+        android:text="Начать" />
+
+</LinearLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/OnboardingFragment">
+
+    <fragment
+        android:id="@+id/OnboardingFragment"
+        android:name="com.example.mobilki_3.ui.onboarding.OnboardingFragment"
+        android:label="onboarding_fragment"
+        tools:layout="@layout/fragment_onboarding">
+        <action
+            android:id="@+id/action_OnboardingFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+        <action
+            android:id="@+id/action_OnboardingFragment_to_registerFragment"
+            app:destination="@id/registerFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.mobilki_3.ui.login.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_registerFragment"
+            app:destination="@id/registerFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_navigationMenuFragment"
+            app:destination="@id/navigationMenuFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.example.mobilki_3.ui.login.RegisterFragment"
+        android:label="register_fragment"
+        tools:layout="@layout/fragment_register" >
+        <action
+            android:id="@+id/action_registerFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigationMenuFragment"
+        android:name="com.example.mobilki_3.ui.menu.NavigationMenuFragment"
+        android:label="fragment_menu_navigation"
+        tools:layout="@layout/fragment_menu_navigation" >
+        <action
+            android:id="@+id/action_navigationMenuFragment_to_OnboardingFragment"
+            app:destination="@id/OnboardingFragment" />
+    </fragment>
+</navigation>
